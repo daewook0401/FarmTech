@@ -19,11 +19,11 @@ for name in ['mods.tsv', 'forge.tsv']:
         assert url.startswith(('https://edge.forgecdn.net/', 'https://cdn.modrinth.com/', 'https://maven.minecraftforge.net/'))
         assert relative not in rows
         rows[relative] = (digest, url)
-assert len(manifest['mods']) == 29
-assert len(rows) == 30
+assert len(manifest['mods']) == 30
+assert len(rows) == 31
 for mod in manifest['mods']:
     assert rows['mods/' + mod['file']] == (mod['sha256'], mod['download_url'])
-    assert not mod['file'].lower().startswith(('oculus-', 'embeddium-', 'jei-'))
+    assert not mod['file'].lower().startswith(('oculus-', 'embeddium-'))
 assert rows['forge-installer.jar'] == (manifest['forge_installer']['sha256'], manifest['forge_installer']['download_url'])
 for file in root.rglob('*'):
     if not file.is_file() or any(part in {'.git', '.cache', '__pycache__', 'data', 'deployment-backups'} for part in file.relative_to(root).parts):

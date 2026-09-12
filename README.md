@@ -141,8 +141,9 @@ server.properties  whitelist.json  ops.json  banned-players.json  banned-ips.jso
 
 Farmer's Delight, Industrial Foregoing, Mekanism, Mekanism Generators, AE2, Mystical Agriculture, Powah, Farming for Blockheads, Pipez, TaCZ, Sophisticated Backpacks, Curios, Jade, FTB Chunks, FTB Teams, Waystones와 필수 라이브러리를 포함합니다.
 최적화는 FerriteCore·ModernFix, 서버 진단은 spark, 자동 백업은 Simple Backups를 사용합니다.
-서버 모드 JAR는 총 29개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
-Embeddium·Oculus·JEI·셰이더·한국어 리소스팩은 클라이언트에서 사용합니다.
+서버 모드 JAR는 총 30개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
+JEI는 클라이언트와 서버에 같은 버전을 넣어 제작법을 동기화합니다.
+Embeddium·Oculus·셰이더·한국어 리소스팩은 클라이언트에서 사용합니다.
 TaCZ 기본 총기팩은 모드가 첫 실행 때 `data/tacz/`에 생성합니다.
 
 서버 콘솔에서 `spark tps`로 TPS를 볼 수 있습니다.

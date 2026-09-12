@@ -124,6 +124,14 @@
       "curseforge_file_id": 8479276
     },
     {
+      "file": "jei-1.20.1-forge-15.56.0.205.jar",
+      "sha256": "6b251e60a4719c874da89d750af97aa6498f6f4475e3ae79cb1288c7bf0cb65c",
+      "download_url": "https://edge.forgecdn.net/files/8778/11/jei-1.20.1-forge-15.56.0.205.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/jei",
+      "curseforge_project_id": 238222,
+      "curseforge_file_id": 8778011
+    },
+    {
       "file": "Mekanism-1.20.1-10.4.16.80.jar",
       "sha256": "3b0d191fa4a45e662f9725991d76a30192f30186abb2ba694b873b5f7b9358d2",
       "download_url": "https://edge.forgecdn.net/files/6552/911/Mekanism-1.20.1-10.4.16.80.jar",
@@ -240,8 +248,7 @@
   ],
   "client_only_excluded": [
     "embeddium",
-    "oculus",
-    "jei"
+    "oculus"
   ],
   "forge_installer": {
     "sha256": "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3",
