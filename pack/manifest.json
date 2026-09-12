@@ -1,0 +1,250 @@
+{
+  "minecraft": "1.20.1",
+  "forge": "47.4.10",
+  "java_major": 17,
+  "mods": [
+    {
+      "file": "appliedenergistics2-forge-15.4.10.jar",
+      "sha256": "fbfee05c6674cb6b00fe425e945ca4818d41eb34069b60dcb4a36221a0390fcc",
+      "download_url": "https://edge.forgecdn.net/files/7148/487/appliedenergistics2-forge-15.4.10.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2",
+      "curseforge_project_id": 223794,
+      "curseforge_file_id": 7148487
+    },
+    {
+      "file": "architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "download_url": "https://edge.forgecdn.net/files/5137/938/architectury-9.2.14-forge.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+      "curseforge_project_id": 419699,
+      "curseforge_file_id": 5137938
+    },
+    {
+      "file": "balm-forge-1.20.1-7.3.43.jar",
+      "sha256": "1ef7820c2587d2ecee26a8b941427f08bbc1058a8dd376cf45e3fa6df1cba69e",
+      "download_url": "https://edge.forgecdn.net/files/8862/257/balm-forge-1.20.1-7.3.43.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+      "curseforge_project_id": 531761,
+      "curseforge_file_id": 8862257
+    },
+    {
+      "file": "cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "download_url": "https://edge.forgecdn.net/files/5729/105/cloth-config-11.1.136-forge.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+      "curseforge_project_id": 348521,
+      "curseforge_file_id": 5729105
+    },
+    {
+      "file": "Cucumber-1.20.1-7.0.16.jar",
+      "sha256": "b586a3cd1de362c365f923e5c325273916822f4b3a792c0d9ff6747d7deb2be6",
+      "download_url": "https://edge.forgecdn.net/files/7180/783/Cucumber-1.20.1-7.0.16.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/cucumber",
+      "curseforge_project_id": 272335,
+      "curseforge_file_id": 7180783
+    },
+    {
+      "file": "curios-forge-5.14.1+1.20.1.jar",
+      "sha256": "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+      "download_url": "https://edge.forgecdn.net/files/6418/456/curios-forge-5.14.1%2b1.20.1.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+      "curseforge_project_id": 309927,
+      "curseforge_file_id": 6418456
+    },
+    {
+      "file": "FarmersDelight-1.20.1-1.3.4.jar",
+      "sha256": "34f03eb671ea1ca579b00c98e4541404cb96d1a292014aed9cc5eb45ad8afbce",
+      "download_url": "https://edge.forgecdn.net/files/8765/179/FarmersDelight-1.20.1-1.3.4.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+      "curseforge_project_id": 398521,
+      "curseforge_file_id": 8765179
+    },
+    {
+      "file": "farmingforblockheads-forge-1.20.1-14.0.4.jar",
+      "sha256": "dfa3c4e54bc68a2251f11f127dc057528d55ea4725734b881a9e0c25e80c6ddb",
+      "download_url": "https://edge.forgecdn.net/files/7048/376/farmingforblockheads-forge-1.20.1-14.0.4.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/farming-for-blockheads",
+      "curseforge_project_id": 261924,
+      "curseforge_file_id": 7048376
+    },
+    {
+      "file": "ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "download_url": "https://edge.forgecdn.net/files/4810/975/ferritecore-6.0.1-forge.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+      "curseforge_project_id": 429235,
+      "curseforge_file_id": 4810975
+    },
+    {
+      "file": "ftb-chunks-forge-2001.3.8.jar",
+      "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02",
+      "download_url": "https://edge.forgecdn.net/files/8216/874/ftb-chunks-forge-2001.3.8.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge",
+      "curseforge_project_id": 314906,
+      "curseforge_file_id": 8216874
+    },
+    {
+      "file": "ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "download_url": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "curseforge_project_id": 404465,
+      "curseforge_file_id": 8226927
+    },
+    {
+      "file": "ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "download_url": "https://edge.forgecdn.net/files/7499/810/ftb-teams-forge-2001.3.2.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "curseforge_project_id": 404468,
+      "curseforge_file_id": 7499810
+    },
+    {
+      "file": "guideme-20.1.15.jar",
+      "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a",
+      "download_url": "https://edge.forgecdn.net/files/8204/776/guideme-20.1.15.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/guideme",
+      "curseforge_project_id": 1173950,
+      "curseforge_file_id": 8204776
+    },
+    {
+      "file": "industrial-foregoing-1.20.1-3.5.22.jar",
+      "sha256": "9220ddde2c259c8dfa5c05ad23b26650dc9b2f3048c4aca3b1d9d6f4cd211f3d",
+      "download_url": "https://edge.forgecdn.net/files/7949/862/industrial-foregoing-1.20.1-3.5.22.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing",
+      "curseforge_project_id": 266515,
+      "curseforge_file_id": 7949862
+    },
+    {
+      "file": "Jade-1.20.1-Forge-11.13.3.jar",
+      "sha256": "a632c77975e5aedff6322b0072f8b0db3f5d4bf914df6bdcc87d1aea4d5f55f4",
+      "download_url": "https://edge.forgecdn.net/files/8479/276/Jade-1.20.1-Forge-11.13.3.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+      "curseforge_project_id": 324717,
+      "curseforge_file_id": 8479276
+    },
+    {
+      "file": "Mekanism-1.20.1-10.4.16.80.jar",
+      "sha256": "3b0d191fa4a45e662f9725991d76a30192f30186abb2ba694b873b5f7b9358d2",
+      "download_url": "https://edge.forgecdn.net/files/6552/911/Mekanism-1.20.1-10.4.16.80.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/mekanism",
+      "curseforge_project_id": 268560,
+      "curseforge_file_id": 6552911
+    },
+    {
+      "file": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "sha256": "be2d5b8553f8638cfabf491002f95cef6acef210f627addb391f5af713502512",
+      "download_url": "https://edge.forgecdn.net/files/6552/914/MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/mekanism-generators",
+      "curseforge_project_id": 268566,
+      "curseforge_file_id": 6552914
+    },
+    {
+      "file": "modernfix-forge-5.27.83+mc1.20.1.jar",
+      "sha256": "954ff22f601be8de3978a0d7636a138dc93801c6ac55cfd71ef1cd2895de8e5f",
+      "download_url": "https://edge.forgecdn.net/files/8774/721/modernfix-forge-5.27.83%2bmc1.20.1.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+      "curseforge_project_id": 790626,
+      "curseforge_file_id": 8774721
+    },
+    {
+      "file": "MysticalAgriculture-1.20.1-7.0.24.jar",
+      "sha256": "f9c5f8ac46d354e00b8ec0d5abfc3a224a78d15c521928f788b21bbe7792206d",
+      "download_url": "https://edge.forgecdn.net/files/8034/376/MysticalAgriculture-1.20.1-7.0.24.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture",
+      "curseforge_project_id": 246640,
+      "curseforge_file_id": 8034376
+    },
+    {
+      "file": "Patchouli-1.20.1-85-FORGE.jar",
+      "sha256": "05f7b5d52f6b8f0fd7f8b4822fa07a192d1394d83a264309c9d221d6d4fd21c5",
+      "download_url": "https://edge.forgecdn.net/files/7731/17/Patchouli-1.20.1-85-FORGE.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/patchouli",
+      "curseforge_project_id": 306770,
+      "curseforge_file_id": 7731017
+    },
+    {
+      "file": "pipez-forge-1.20.1-1.2.26.jar",
+      "sha256": "f692b0a24c46c954358db8535248021deaf3399973c4e746ba1e3e115a8a48c9",
+      "download_url": "https://edge.forgecdn.net/files/6945/379/pipez-forge-1.20.1-1.2.26.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/pipez",
+      "curseforge_project_id": 443900,
+      "curseforge_file_id": 6945379
+    },
+    {
+      "file": "Powah-5.0.11.jar",
+      "sha256": "22f16ac88e8064f4f7fd94fb88fad3c8723dbd6fa5c11b7fd73c078c293184fa",
+      "download_url": "https://edge.forgecdn.net/files/6828/54/Powah-5.0.11.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected",
+      "curseforge_project_id": 633483,
+      "curseforge_file_id": 6828054
+    },
+    {
+      "file": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "sha256": "6ab4a0cb739a6c11442a73d1b5f42c40c2ae93b31162fa63d81e1b66706e9e31",
+      "download_url": "https://edge.forgecdn.net/files/8845/923/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+      "curseforge_project_id": 422301,
+      "curseforge_file_id": 8845923
+    },
+    {
+      "file": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "sha256": "f4038a2e0d0e3504258fbe315cb27a37f1a769d71985bfa20afb983a3bdfab64",
+      "download_url": "https://edge.forgecdn.net/files/8839/328/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+      "curseforge_project_id": 618298,
+      "curseforge_file_id": 8839328
+    },
+    {
+      "file": "tacz-1.20.1-1.1.8-hotfix.jar",
+      "sha256": "9ed8ada1283ed7a793a70cc1b51c4a340f367ce84707e1a7b8cf21ee3d288d77",
+      "download_url": "https://edge.forgecdn.net/files/8141/310/tacz-1.20.1-1.1.8-hotfix.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/timeless-and-classics-zero",
+      "curseforge_project_id": 1028108,
+      "curseforge_file_id": 8141310
+    },
+    {
+      "file": "titanium-1.20.1-3.8.34.jar",
+      "sha256": "9c7781e6e6a82b1d3a8b0e6ddbe4fdf660c697d3df4305b2065c39c5b33673f8",
+      "download_url": "https://edge.forgecdn.net/files/7949/783/titanium-1.20.1-3.8.34.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/titanium",
+      "curseforge_project_id": 287342,
+      "curseforge_file_id": 7949783
+    },
+    {
+      "file": "waystones-forge-1.20.1-14.1.21.jar",
+      "sha256": "fd6fe3c645328ea7be5bc6723d02c881e34650e0cbd4527ba59e42fa4cbe3c80",
+      "download_url": "https://edge.forgecdn.net/files/8849/482/waystones-forge-1.20.1-14.1.21.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+      "curseforge_project_id": 245755,
+      "curseforge_file_id": 8849482
+    },
+    {
+      "file": "spark-1.10.53-forge.jar",
+      "sha256": "eba275ba9bb0cb5b542913c3138c6eeff6a752898266d63d125d185f26ac99ed",
+      "download_url": "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar",
+      "project_url": "https://modrinth.com/mod/spark",
+      "modrinth_version_id": "4FXHDE9F"
+    },
+    {
+      "file": "SimpleBackups-1.20.1-3.1.24.jar",
+      "sha256": "a5d48459c3cb114fd54897f05354e66dde9c7df447953cd8b5ab6bdf443695b9",
+      "download_url": "https://cdn.modrinth.com/data/fzSKSXVK/versions/27zw3anx/SimpleBackups-1.20.1-3.1.24.jar",
+      "project_url": "https://modrinth.com/mod/simple-backups",
+      "modrinth_version_id": "27zw3anx"
+    }
+  ],
+  "server_only": [
+    "spark",
+    "simplebackups"
+  ],
+  "client_only_excluded": [
+    "embeddium",
+    "oculus",
+    "jei"
+  ],
+  "forge_installer": {
+    "sha256": "1912760b4cb6b803d8a826de603c9076b1da71ec2765e9a1f8c1ca78f65278e3",
+    "download_url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-installer.jar"
+  }
+}

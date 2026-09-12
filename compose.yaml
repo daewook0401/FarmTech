@@ -1,0 +1,33 @@
+name: farmtech
+services:
+  minecraft:
+    image: farmtech-server:local
+    build:
+      context: .
+    platform: linux/amd64
+    user: "${PUID:-1000}:${PGID:-1000}"
+    init: true
+    environment:
+      EULA: "${EULA:-false}"
+      INIT_MEMORY: "${INIT_MEMORY:-2G}"
+      MAX_MEMORY: "${MAX_MEMORY:-6G}"
+      TZ: "${TZ:-Asia/Seoul}"
+    ports:
+      - "${BIND_IP:-0.0.0.0}:${SERVER_PORT:-25565}:25565/tcp"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /data
+        bind:
+          create_host_path: false
+    mem_limit: ${CONTAINER_MEMORY:-8g}
+    mem_reservation: 2g
+    restart: unless-stopped
+    stop_grace_period: 2m
+    stdin_open: true
+    tty: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

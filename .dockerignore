@@ -1,0 +1,8 @@
+**
+!Dockerfile
+!tools/
+!tools/download.sh
+!scripts/
+!scripts/entrypoint.sh
+!pack/
+!pack/**

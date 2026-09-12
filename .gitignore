@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+data/
+deployment-backups/
+.deploy.lock
+.cache/
+__pycache__/
+*.pyc
+*.jar
+*.zip
+*.tar.gz
+*.log
+.DS_Store

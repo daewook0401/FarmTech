@@ -1,0 +1,27 @@
+# Full world backups, at most 24 files / 25 GB.
+enabled = true
+backupType = "FULL_BACKUPS"
+saveAll = true
+fullBackupTimer = 1440
+backupsToKeep = 24
+timer = 60
+compressionLevel = 1
+sendMessages = true
+maxDiskSize = "25 GB"
+outputPath = "backups"
+noPlayerBackups = false
+createSubDirs = true
+useTickCounter = false
+
+[error_handling]
+collectErrors = false
+deleteUnfinishedBackup = true
+
+[to_ignore]
+ignored_paths = []
+ignored_files = ["session.lock"]
+ignored_files_regex = ""
+
+[mod_compat]
+mc2discord = false
+onlyFavorites = false

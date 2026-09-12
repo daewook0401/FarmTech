@@ -1,0 +1,5 @@
+{
+    max_claimed_chunks: 500
+    max_force_loaded_chunks: 9
+    force_load_mode: "never"
+}
