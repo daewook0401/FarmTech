@@ -21,6 +21,7 @@ while IFS=$'\t' read -r digest relative url extra || [[ -n "${digest:-}" ]]; do
     target="$output/$relative"
     mkdir -p "$(dirname "$target")"
     if [[ -f "$target" ]] && [[ "$(sha256sum "$target" | cut -d ' ' -f 1)" == "$digest" ]]; then
+        chmod 0644 "$target"
         echo "Verified cache: $relative"
         continue
     fi
@@ -33,6 +34,8 @@ while IFS=$'\t' read -r digest relative url extra || [[ -n "${digest:-}" ]]; do
         echo "SHA-256 mismatch for $relative: expected $digest, received $actual" >&2
         exit 1
     fi
+    # mktemp creates mode 0600; runtime uses an unprivileged account.
+    chmod 0644 "$temporary"
     mv -f -- "$temporary" "$target"
     temporary=
 done < "$lock_file"
