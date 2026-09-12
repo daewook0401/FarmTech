@@ -1,0 +1,455 @@
+[
+  {
+    "key": "welcome",
+    "id": "62D9B6966A5B3955",
+    "chapter": "01 · 정착과 주방",
+    "title": "FarmTech에 오신 것을 환영합니다",
+    "dependencies": []
+  },
+  {
+    "key": "crafting_table",
+    "id": "4448DC515BB13DC6",
+    "chapter": "01 · 정착과 주방",
+    "title": "손으로 시작하는 공장",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "furnace",
+    "id": "0387945D89684D2E",
+    "chapter": "01 · 정착과 주방",
+    "title": "첫 불을 지피다",
+    "dependencies": [
+      "crafting_table"
+    ]
+  },
+  {
+    "key": "iron_pickaxe",
+    "id": "1AFFEB28934720E0",
+    "chapter": "01 · 정착과 주방",
+    "title": "철 도구로 한 걸음",
+    "dependencies": [
+      "furnace"
+    ]
+  },
+  {
+    "key": "backpack",
+    "id": "23C519EC3A480F37",
+    "chapter": "01 · 정착과 주방",
+    "title": "두 손은 가볍게",
+    "dependencies": [
+      "crafting_table"
+    ]
+  },
+  {
+    "key": "knife",
+    "id": "24D1C2029E55BC77",
+    "chapter": "01 · 정착과 주방",
+    "title": "요리사의 첫 도구",
+    "dependencies": [
+      "crafting_table"
+    ]
+  },
+  {
+    "key": "cutting_board",
+    "id": "5DD45DCA5A30C7D3",
+    "chapter": "01 · 정착과 주방",
+    "title": "도마 위의 준비",
+    "dependencies": [
+      "knife"
+    ]
+  },
+  {
+    "key": "cooking_pot",
+    "id": "28D31858B8AF5827",
+    "chapter": "01 · 정착과 주방",
+    "title": "따뜻한 한 끼",
+    "dependencies": [
+      "cutting_board",
+      "furnace"
+    ]
+  },
+  {
+    "key": "market",
+    "id": "67C3787EC81B5103",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "농장의 작은 시장",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "tomato",
+    "id": "1D39C9328A1560CB",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "빨갛게 익은 수확",
+    "dependencies": [
+      "market"
+    ]
+  },
+  {
+    "key": "cabbage",
+    "id": "1B793F51C9536545",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "식탁을 채우는 채소",
+    "dependencies": [
+      "market"
+    ]
+  },
+  {
+    "key": "rich_soil",
+    "id": "5E2D492539AB9725",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "좋은 흙이 좋은 농장을",
+    "dependencies": [
+      "tomato",
+      "cabbage"
+    ]
+  },
+  {
+    "key": "inferium",
+    "id": "645C5DA3973C1932",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "작물로 자원을 만들다",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "infusion_altar",
+    "id": "582688231F97539D",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "씨앗 주입의 제단",
+    "dependencies": [
+      "inferium"
+    ]
+  },
+  {
+    "key": "iron_seeds",
+    "id": "776EC520732E3113",
+    "chapter": "02 · 작물과 씨앗",
+    "title": "철이 자라는 밭",
+    "dependencies": [
+      "infusion_altar"
+    ]
+  },
+  {
+    "key": "heat_generator",
+    "id": "050C034A4DBF4CF2",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "처음 켜는 발전기",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "infuser",
+    "id": "1172941E47282A22",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "금속에 성질을 더하기",
+    "dependencies": [
+      "heat_generator"
+    ]
+  },
+  {
+    "key": "steel",
+    "id": "16D268AA3372C721",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "공장의 뼈대, 강철",
+    "dependencies": [
+      "infuser"
+    ]
+  },
+  {
+    "key": "cable",
+    "id": "1BA1E0979FA68FD7",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "전기가 흐르는 길",
+    "dependencies": [
+      "steel"
+    ]
+  },
+  {
+    "key": "energy_cube",
+    "id": "4986B8433401E7A7",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "남는 전력을 저장하기",
+    "dependencies": [
+      "cable"
+    ]
+  },
+  {
+    "key": "enrichment",
+    "id": "4DF0A10E6191A156",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "광물 가공의 시작",
+    "dependencies": [
+      "cable"
+    ]
+  },
+  {
+    "key": "smelter",
+    "id": "3216D3401C5BFDBD",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "전기로 굽는 화로",
+    "dependencies": [
+      "enrichment"
+    ]
+  },
+  {
+    "key": "wind",
+    "id": "7EA73945BAA27A4A",
+    "chapter": "03 · 첫 전력과 기계",
+    "title": "바람으로 이어 가는 전력",
+    "dependencies": [
+      "energy_cube"
+    ]
+  },
+  {
+    "key": "pipe_wrench",
+    "id": "79EFC86E96868B8B",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "파이프 설정 도구",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "item_pipe",
+    "id": "69733A20D7BEF1BD",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "상자 사이의 작은 자동화",
+    "dependencies": [
+      "pipe_wrench"
+    ]
+  },
+  {
+    "key": "fluid_pipe",
+    "id": "0BF682ECA6CC1292",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "액체도 길을 따라",
+    "dependencies": [
+      "pipe_wrench"
+    ]
+  },
+  {
+    "key": "fluid_extractor",
+    "id": "4B8AA7D7505E8E85",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "나무에서 라텍스로",
+    "dependencies": [
+      "fluid_pipe"
+    ]
+  },
+  {
+    "key": "latex_unit",
+    "id": "038B2C206E6847C1",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "라텍스를 재료로 가공",
+    "dependencies": [
+      "fluid_extractor",
+      "cable"
+    ]
+  },
+  {
+    "key": "dry_rubber",
+    "id": "5EA37A8F4CD2A065",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "작은 고무를 모으다",
+    "dependencies": [
+      "latex_unit"
+    ]
+  },
+  {
+    "key": "plastic",
+    "id": "6686CE63B5E8CD8A",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "자동화 설비의 재료",
+    "dependencies": [
+      "dry_rubber"
+    ]
+  },
+  {
+    "key": "auto_farm",
+    "id": "65AE23306D1FB336",
+    "chapter": "04 · 자동 농장과 운송",
+    "title": "심고 거두는 자동 농장",
+    "dependencies": [
+      "plastic",
+      "item_pipe"
+    ]
+  },
+  {
+    "key": "prudentium",
+    "id": "3C98634C2396B2C1",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "정수의 두 번째 단계",
+    "dependencies": [
+      "inferium"
+    ]
+  },
+  {
+    "key": "tertium",
+    "id": "75C54AEE4CE5CF24",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "중급 자원으로 확장",
+    "dependencies": [
+      "prudentium"
+    ]
+  },
+  {
+    "key": "imperium",
+    "id": "509B1C9C966A5B9C",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "생산량이 곧 힘",
+    "dependencies": [
+      "tertium"
+    ]
+  },
+  {
+    "key": "supremium",
+    "id": "1AD89EEBF5A34319",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "상급 정수의 첫 결실",
+    "dependencies": [
+      "imperium"
+    ]
+  },
+  {
+    "key": "powah_energizing",
+    "id": "2C7E6E92DFF2BAFC",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "Powah 에너지 주입",
+    "dependencies": [
+      "cable"
+    ]
+  },
+  {
+    "key": "energized_steel",
+    "id": "53FB3D0224897825",
+    "chapter": "05 · 정수와 강화 재료",
+    "title": "강화 재료를 만들다",
+    "dependencies": [
+      "powah_energizing"
+    ]
+  },
+  {
+    "key": "certus_charger",
+    "id": "1EF99472FF553EC1",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "AE2의 첫 결정",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "fluix",
+    "id": "635D2C591377471D",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "플루익스 결정 만들기",
+    "dependencies": [
+      "certus_charger"
+    ]
+  },
+  {
+    "key": "inscriber",
+    "id": "241C195E12787584",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "회로를 찍는 압축기",
+    "dependencies": [
+      "fluix"
+    ]
+  },
+  {
+    "key": "engineering_processor",
+    "id": "7617032E822F4FBA",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "프로세서 조립",
+    "dependencies": [
+      "inscriber"
+    ]
+  },
+  {
+    "key": "energy_acceptor",
+    "id": "404ABA7CC60240DE",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "창고에 전력 공급",
+    "dependencies": [
+      "fluix"
+    ]
+  },
+  {
+    "key": "me_drive",
+    "id": "7A2CAE55760D0F02",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "상자를 저장 셀로",
+    "dependencies": [
+      "engineering_processor",
+      "energy_acceptor"
+    ]
+  },
+  {
+    "key": "terminal",
+    "id": "68123B037A1673CB",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "한 화면에서 찾는 물건",
+    "dependencies": [
+      "me_drive"
+    ]
+  },
+  {
+    "key": "autocrafting",
+    "id": "13B25EFC6524F03B",
+    "chapter": "06 · AE2 통합 창고",
+    "title": "필요할 때 주문하는 공장",
+    "dependencies": [
+      "terminal"
+    ]
+  },
+  {
+    "key": "waystone",
+    "id": "3A38CE87D2213EDC",
+    "chapter": "07 · 탐험과 총기",
+    "title": "돌아올 길을 만들다",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "gun_table",
+    "id": "3D1A093556B526DA",
+    "chapter": "07 · 탐험과 총기",
+    "title": "총기 제작의 작업대",
+    "dependencies": [
+      "welcome"
+    ]
+  },
+  {
+    "key": "first_gun",
+    "id": "3A59F363E5373597",
+    "chapter": "07 · 탐험과 총기",
+    "title": "첫 총기를 마련하다",
+    "dependencies": [
+      "gun_table"
+    ]
+  },
+  {
+    "key": "ammunition",
+    "id": "6620ED2A100182DB",
+    "chapter": "07 · 탐험과 총기",
+    "title": "총기에 맞는 탄약",
+    "dependencies": [
+      "first_gun"
+    ]
+  },
+  {
+    "key": "iron_backpack",
+    "id": "014111ED91BAD052",
+    "chapter": "07 · 탐험과 총기",
+    "title": "여행 가방을 넓히다",
+    "dependencies": [
+      "backpack"
+    ]
+  }
+]

@@ -1,0 +1,326 @@
+{
+  "id": "3BECAF8C71C1C12D",
+  "filename": "03_power",
+  "order_index": 2,
+  "title": "03 · 첫 전력과 기계",
+  "subtitle": [
+    "Mekanism으로 전기를 생산하고 활용하기"
+  ],
+  "icon": "mekanismgenerators:heat_generator",
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "050C034A4DBF4CF2",
+      "title": "처음 켜는 발전기",
+      "icon": "mekanismgenerators:heat_generator",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Mekanism의 열 발전기를 만들어 주세요. 연료를 사용하거나 주변의 용암을 활용해 첫 전력을 마련할 수 있습니다.",
+        "FE는 여러 기술 모드가 함께 사용하는 전력 단위입니다. 발전량과 기계 소비량을 함께 확인하세요."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "7A244AAB13F29DFE",
+          "type": "item",
+          "item": "mekanismgenerators:heat_generator",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "589C267CE0A6D29E",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "426648659F53831F",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "1172941E47282A22",
+      "title": "금속에 성질을 더하기",
+      "icon": "mekanism:metallurgic_infuser",
+      "x": 3.0,
+      "y": 0.0,
+      "description": [
+        "야금 주입기는 철 등에 탄소나 레드스톤 성분을 주입하는 기계입니다. 첫 합금과 강철 제작의 출발점입니다.",
+        "전원을 연결하고 주입 재료 칸과 가공 재료 칸을 구분해 주세요. 서로 다른 주입 성분을 바꿀 때에는 내부 상태를 확인하세요."
+      ],
+      "dependencies": [
+        "050C034A4DBF4CF2"
+      ],
+      "tasks": [
+        {
+          "id": "44DCACDBC993DDC2",
+          "type": "item",
+          "item": "mekanism:metallurgic_infuser",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "28713156E75E5AEB",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "082A17331C0EE185",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "16D268AA3372C721",
+      "title": "공장의 뼈대, 강철",
+      "icon": "mekanism:ingot_steel",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "강철 주괴 4개를 준비하세요. 야금 주입과 제련을 거치는 전체 과정을 JEI에서 따라가 보세요.",
+        "강철은 케이블과 기계 외장재 등 여러 설비에 쓰입니다. 재료를 바로 전부 쓰기보다 조금씩 비축하세요."
+      ],
+      "dependencies": [
+        "1172941E47282A22"
+      ],
+      "tasks": [
+        {
+          "id": "2E28CA45612E70EA",
+          "type": "item",
+          "item": "mekanism:ingot_steel",
+          "count": 4,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2C3A99A8B0F45DD0",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "236E097C60D384FC",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "1BA1E0979FA68FD7",
+      "title": "전기가 흐르는 길",
+      "icon": "mekanism:basic_universal_cable",
+      "x": 9.0,
+      "y": 0.0,
+      "description": [
+        "기본 범용 케이블 8개로 발전기와 기계를 이어 주세요. 연결되어도 작동하지 않으면 기계의 면 설정을 확인하세요.",
+        "전력 케이블과 유체 파이프는 역할이 다릅니다. 필요한 자원에 맞는 운송 수단을 선택하세요."
+      ],
+      "dependencies": [
+        "16D268AA3372C721"
+      ],
+      "tasks": [
+        {
+          "id": "50A1ED1EC62A1964",
+          "type": "item",
+          "item": "mekanism:basic_universal_cable",
+          "count": 8,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "46C21FE0A792D82E",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "58D3B2A5EBF67A68",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "4986B8433401E7A7",
+      "title": "남는 전력을 저장하기",
+      "icon": "mekanism:basic_energy_cube",
+      "x": 0.0,
+      "y": 3.0,
+      "description": [
+        "기본 에너지 큐브는 남는 전기를 저장해 발전량이 흔들릴 때 기계에 공급합니다.",
+        "큐브의 입력·출력 면과 기계 방향을 확인하세요. 저장 장치가 있어도 장기간 소비량이 발전량보다 많으면 결국 전력이 바닥납니다."
+      ],
+      "dependencies": [
+        "1BA1E0979FA68FD7"
+      ],
+      "tasks": [
+        {
+          "id": "46FD8D0959743884",
+          "type": "item",
+          "item": "mekanism:basic_energy_cube",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "06F2F1AAA73DD60B",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "192234C7E038F953",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "4DF0A10E6191A156",
+      "title": "광물 가공의 시작",
+      "icon": "mekanism:enrichment_chamber",
+      "x": 3.0,
+      "y": 3.0,
+      "description": [
+        "농축 챔버를 만들어 광물과 각종 재료를 가공하세요. 재료 형태에 따라 가공 비율이 달라집니다.",
+        "원광·광석·가루의 제작법을 JEI에서 비교한 뒤 투입하세요. 모든 재료가 같은 비율로 늘어나지는 않습니다."
+      ],
+      "dependencies": [
+        "1BA1E0979FA68FD7"
+      ],
+      "tasks": [
+        {
+          "id": "2A4F3E973AC69170",
+          "type": "item",
+          "item": "mekanism:enrichment_chamber",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0791FD98314AF89B",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "28C42C5686AF1F9C",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "3216D3401C5BFDBD",
+      "title": "전기로 굽는 화로",
+      "icon": "mekanism:energized_smelter",
+      "x": 6.0,
+      "y": 3.0,
+      "description": [
+        "전기 제련기를 농축 챔버와 함께 사용하면 가공된 가루를 주괴로 만들 수 있습니다.",
+        "기계의 입출력 면과 자동 배출 설정을 익혀 보세요. 다음 장의 Pipez를 연결하면 상자에서 완성품까지 흐름을 만들 수 있습니다."
+      ],
+      "dependencies": [
+        "4DF0A10E6191A156"
+      ],
+      "tasks": [
+        {
+          "id": "05D960348BA0EB15",
+          "type": "item",
+          "item": "mekanism:energized_smelter",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "1C7E031D961FCEAD",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "4FE95E487F339DC5",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "7EA73945BAA27A4A",
+      "title": "바람으로 이어 가는 전력",
+      "icon": "mekanismgenerators:wind_generator",
+      "x": 9.0,
+      "y": 3.0,
+      "description": [
+        "풍력 발전기를 설치하면 연료를 계속 보충하지 않아도 됩니다. 설치 높이에 따른 발전량을 확인하세요.",
+        "확장할 때는 발전기 개수와 케이블 처리량, 에너지 저장량을 함께 늘려 주세요."
+      ],
+      "dependencies": [
+        "4986B8433401E7A7"
+      ],
+      "tasks": [
+        {
+          "id": "2FC55208D9D61660",
+          "type": "item",
+          "item": "mekanismgenerators:wind_generator",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2EC092EDF3BA8559",
+          "type": "xp",
+          "xp": 50,
+          "team_reward": false
+        },
+        {
+          "id": "22F8A970A042E643",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    }
+  ]
+}

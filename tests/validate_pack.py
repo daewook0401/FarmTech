@@ -19,8 +19,8 @@ for name in ['mods.tsv', 'forge.tsv']:
         assert url.startswith(('https://edge.forgecdn.net/', 'https://cdn.modrinth.com/', 'https://maven.minecraftforge.net/'))
         assert relative not in rows
         rows[relative] = (digest, url)
-assert len(manifest['mods']) == 30
-assert len(rows) == 31
+assert len(manifest['mods']) == 32
+assert len(rows) == 33
 for mod in manifest['mods']:
     assert rows['mods/' + mod['file']] == (mod['sha256'], mod['download_url'])
     assert not mod['file'].lower().startswith(('oculus-', 'embeddium-'))

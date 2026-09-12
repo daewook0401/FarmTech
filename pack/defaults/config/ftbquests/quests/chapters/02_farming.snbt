@@ -1,0 +1,297 @@
+{
+  "id": "1EF19CE928FEAB03",
+  "filename": "02_farming",
+  "order_index": 1,
+  "title": "02 · 작물과 씨앗",
+  "subtitle": [
+    "먹을거리에서 자라는 자원으로"
+  ],
+  "icon": "farmingforblockheads:market",
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "67C3787EC81B5103",
+      "title": "농장의 작은 시장",
+      "icon": "farmingforblockheads:market",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Farming for Blockheads의 시장을 만들면 씨앗과 묘목 등을 거래할 수 있습니다.",
+        "원하는 작물을 구하기 힘들 때 시장의 판매 목록과 가격을 확인하세요. 농장을 넓히기 전에 물과 조명을 준비하면 좋습니다."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "4F595A18CDDEDEF8",
+          "type": "item",
+          "item": "farmingforblockheads:market",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5997479EB45B03C2",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "7F18B4EC3C8CF8C7",
+          "type": "item",
+          "item": "minecraft:emerald",
+          "count": 1,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "1D39C9328A1560CB",
+      "title": "빨갛게 익은 수확",
+      "icon": "farmersdelight:tomato",
+      "x": 3.0,
+      "y": 0.0,
+      "description": [
+        "토마토를 얻고 씨앗을 남겨 재배를 이어 가세요. 자연에서 작물을 찾거나 시장의 판매 목록을 살펴보세요.",
+        "수확한 토마토 8개를 인벤토리에 모으면 완료됩니다. 수확물은 그대로 남습니다."
+      ],
+      "dependencies": [
+        "67C3787EC81B5103"
+      ],
+      "tasks": [
+        {
+          "id": "4E0E327E10FD1148",
+          "type": "item",
+          "item": "farmersdelight:tomato",
+          "count": 8,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0C69C7BB42C754D6",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "0F8C4873609C99A5",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "1B793F51C9536545",
+      "title": "식탁을 채우는 채소",
+      "icon": "farmersdelight:cabbage",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "양배추 8개를 수확해 주세요. 여러 작물을 함께 기르면 냄비 요리의 선택지가 늘어납니다.",
+        "식량용 수확물과 다시 심을 씨앗을 구분해 보관하세요. 자동화할 때에도 씨앗을 먼저 확보하는 습관이 도움이 됩니다."
+      ],
+      "dependencies": [
+        "67C3787EC81B5103"
+      ],
+      "tasks": [
+        {
+          "id": "6D6E0DDE97FEFF8D",
+          "type": "item",
+          "item": "farmersdelight:cabbage",
+          "count": 8,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "39AADF0D3E322573",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "5A8CD81E0B7B7697",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "5E2D492539AB9725",
+      "title": "좋은 흙이 좋은 농장을",
+      "icon": "farmersdelight:rich_soil",
+      "x": 9.0,
+      "y": 0.0,
+      "description": [
+        "유기 퇴비를 적절한 환경에서 숙성해 비옥한 토양을 얻어 보세요. 퇴비 제작법은 JEI에서 확인할 수 있습니다.",
+        "비옥한 토양은 Farmer's Delight 농장을 꾸미고 확장할 때 유용합니다. 여기서는 완성된 토양 1개를 확인합니다."
+      ],
+      "dependencies": [
+        "1D39C9328A1560CB",
+        "1B793F51C9536545"
+      ],
+      "tasks": [
+        {
+          "id": "12DCAF024028149D",
+          "type": "item",
+          "item": "farmersdelight:rich_soil",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "21016E050B57D7A0",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "0C90F8C250668932",
+          "type": "item",
+          "item": "minecraft:bone_meal",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "645C5DA3973C1932",
+      "title": "작물로 자원을 만들다",
+      "icon": "mysticalagriculture:inferium_essence",
+      "x": 0.0,
+      "y": 3.0,
+      "description": [
+        "Mystical Agriculture는 씨앗을 길러 자원을 생산하는 모드입니다. 먼저 인페리움 정수 16개를 모아 주세요.",
+        "광석과 몬스터 드롭 등으로 첫 정수를 마련한 뒤 인페리움 씨앗 재배로 공급을 늘려 보세요."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "15E2F28ADCCF446D",
+          "type": "item",
+          "item": "mysticalagriculture:inferium_essence",
+          "count": 16,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7DFE49DE80E702BE",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "2D33B8A610AE8B96",
+          "type": "item",
+          "item": "minecraft:wheat_seeds",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "582688231F97539D",
+      "title": "씨앗 주입의 제단",
+      "icon": "mysticalagriculture:infusion_altar",
+      "x": 3.0,
+      "y": 3.0,
+      "description": [
+        "주입 제단 1개와 주입 받침대 8개를 준비하세요. 중심의 제단과 주변 받침대에 JEI에 나온 재료를 배치합니다.",
+        "정확한 배치와 레드스톤 신호가 필요합니다. 재료를 놓은 뒤 버튼이나 레버로 주입을 시작해 보세요."
+      ],
+      "dependencies": [
+        "645C5DA3973C1932"
+      ],
+      "tasks": [
+        {
+          "id": "2618B8960C8E553C",
+          "type": "item",
+          "item": "mysticalagriculture:infusion_altar",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "7107BFC2D5E42FBA",
+          "type": "item",
+          "item": "mysticalagriculture:infusion_pedestal",
+          "count": 8,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "058E263DDD2A855D",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "1D06357219104B66",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "776EC520732E3113",
+      "title": "철이 자라는 밭",
+      "icon": "mysticalagriculture:iron_seeds",
+      "x": 6.0,
+      "y": 3.0,
+      "description": [
+        "주입 제단에서 철 씨앗을 만들어 주세요. 필요한 정수 등급과 재료는 JEI의 주입 제작법에서 확인하세요.",
+        "씨앗을 심고 수확한 철 정수를 철 자원으로 바꾸면 채굴에만 의존하지 않는 생산 기반이 생깁니다.",
+        "정수 등급을 올리는 순서는 05장에서 안내합니다. 다른 장을 오가며 진행해도 괜찮습니다."
+      ],
+      "dependencies": [
+        "582688231F97539D"
+      ],
+      "tasks": [
+        {
+          "id": "0C6597936FC1AB0E",
+          "type": "item",
+          "item": "mysticalagriculture:iron_seeds",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0AAE6F55891277CC",
+          "type": "xp",
+          "xp": 50,
+          "team_reward": false
+        },
+        {
+          "id": "6A390C979221AEC3",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    }
+  ]
+}

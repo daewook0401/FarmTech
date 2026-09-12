@@ -1,0 +1,385 @@
+{
+  "id": "0BAE7953C7360990",
+  "filename": "06_storage",
+  "order_index": 5,
+  "title": "06 · AE2 통합 창고",
+  "subtitle": [
+    "상자 정리에서 주문형 자동 제작까지"
+  ],
+  "icon": "ae2:drive",
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "1EF99472FF553EC1",
+      "title": "AE2의 첫 결정",
+      "icon": "ae2:charger",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "충전기 1개와 서투스 석영 결정 4개를 준비하세요. 운석과 관련 자원을 탐사하고 AE2 안내서도 활용해 보세요.",
+        "충전기에 전력을 공급해 서투스 석영 결정을 충전할 수 있습니다. 다른 기술 모드의 FE 전원을 연결해 시작할 수 있습니다."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "28832B225384CAD4",
+          "type": "item",
+          "item": "ae2:charger",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "12991EAA276A03B1",
+          "type": "item",
+          "item": "ae2:certus_quartz_crystal",
+          "count": 4,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "29EC9F52CE12E70F",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "6D14E904AC2E707F",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "635D2C591377471D",
+      "title": "플루익스 결정 만들기",
+      "icon": "ae2:fluix_crystal",
+      "x": 3.0,
+      "y": 0.0,
+      "description": [
+        "충전된 서투스 석영 결정·레드스톤·네더 석영으로 플루익스 결정을 만드는 과정을 JEI에서 확인하세요.",
+        "물속에서 재료를 반응시키는 방식으로 시작할 수 있습니다. 완성된 결정 4개를 인벤토리에 모아 주세요."
+      ],
+      "dependencies": [
+        "1EF99472FF553EC1"
+      ],
+      "tasks": [
+        {
+          "id": "64795D305FB4873A",
+          "type": "item",
+          "item": "ae2:fluix_crystal",
+          "count": 4,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7D3108BC49C4D61C",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "5A66A06B142AFD7B",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "241C195E12787584",
+      "title": "회로를 찍는 압축기",
+      "icon": "ae2:inscriber",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "AE2 인스크라이버를 만들고 필요한 프레스를 준비하세요. 프레스 종류에 따라 찍을 수 있는 회로가 달라집니다.",
+        "운석의 상자에서 프레스를 찾아보세요. 한 번 얻은 프레스는 회로 한 개를 만들 때마다 사라지는 소모품이 아닙니다."
+      ],
+      "dependencies": [
+        "635D2C591377471D"
+      ],
+      "tasks": [
+        {
+          "id": "6043390962F80AF4",
+          "type": "item",
+          "item": "ae2:inscriber",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "55F1AEFFD76D1574",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "4FEDFF71979338C6",
+          "type": "item",
+          "item": "minecraft:iron_ingot",
+          "count": 1,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "7617032E822F4FBA",
+      "title": "프로세서 조립",
+      "icon": "ae2:engineering_processor",
+      "x": 9.0,
+      "y": 0.0,
+      "description": [
+        "공학 프로세서 1개를 만들어 주세요. 회로 인쇄 단계와 실리콘·레드스톤을 조립하는 단계를 구분하세요.",
+        "논리·연산·공학 프로세서는 서로 다른 재료를 사용합니다. 필요한 프로세서부터 준비하고 JEI로 단계를 거슬러 확인하세요."
+      ],
+      "dependencies": [
+        "241C195E12787584"
+      ],
+      "tasks": [
+        {
+          "id": "1103D804539E63DF",
+          "type": "item",
+          "item": "ae2:engineering_processor",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "7AB1E43B957D2CA2",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "410DD03336A99425",
+          "type": "item",
+          "item": "minecraft:redstone",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "404ABA7CC60240DE",
+      "title": "창고에 전력 공급",
+      "icon": "ae2:energy_acceptor",
+      "x": 0.0,
+      "y": 3.0,
+      "description": [
+        "에너지 수용기를 만들고 FE 전원을 연결하세요. AE2 네트워크가 사용할 전력을 받아들입니다.",
+        "작은 저장망부터 시작하고 장치가 늘어날 때 전력과 채널을 함께 관리하세요. 이 단계에서 ME 컨트롤러가 반드시 필요한 것은 아닙니다."
+      ],
+      "dependencies": [
+        "635D2C591377471D"
+      ],
+      "tasks": [
+        {
+          "id": "2B9E264F94F6B204",
+          "type": "item",
+          "item": "ae2:energy_acceptor",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "2DBCF319F361600E",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "057FF74EC67EAEF3",
+          "type": "item",
+          "item": "minecraft:coal",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "7A2CAE55760D0F02",
+      "title": "상자를 저장 셀로",
+      "icon": "ae2:drive",
+      "x": 3.0,
+      "y": 3.0,
+      "description": [
+        "ME 드라이브와 1k 아이템 저장 셀을 준비하세요. 셀을 드라이브에 넣고 전원이 공급되는 네트워크에 연결합니다.",
+        "저장 셀은 바이트 용량과 아이템 종류 수에 제한이 있습니다. 한 셀에 모든 종류가 무제한으로 들어가지는 않습니다."
+      ],
+      "dependencies": [
+        "7617032E822F4FBA",
+        "404ABA7CC60240DE"
+      ],
+      "tasks": [
+        {
+          "id": "4034B815FF719AFE",
+          "type": "item",
+          "item": "ae2:drive",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "4FADA8F805FC54F9",
+          "type": "item",
+          "item": "ae2:item_storage_cell_1k",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "03CED842CEADD4AD",
+          "type": "xp",
+          "xp": 50,
+          "team_reward": false
+        },
+        {
+          "id": "5C8D478409B895B5",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "68123B037A1673CB",
+      "title": "한 화면에서 찾는 물건",
+      "icon": "ae2:terminal",
+      "x": 6.0,
+      "y": 3.0,
+      "description": [
+        "ME 터미널 1개와 플루익스 유리 케이블 4개를 준비하세요. 터미널·드라이브·전원을 하나의 네트워크로 연결합니다.",
+        "터미널에 물건을 넣고 검색해 보세요. 나중에는 저장 버스나 입출력 버스로 외부 상자와 기계를 연결할 수 있습니다."
+      ],
+      "dependencies": [
+        "7A2CAE55760D0F02"
+      ],
+      "tasks": [
+        {
+          "id": "70E69971AF737594",
+          "type": "item",
+          "item": "ae2:terminal",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "7A377C4CE9A07927",
+          "type": "item",
+          "item": "ae2:fluix_glass_cable",
+          "count": 4,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "56524DB4C268CA58",
+          "type": "xp",
+          "xp": 50,
+          "team_reward": false
+        },
+        {
+          "id": "780DDE0A878BCF88",
+          "type": "item",
+          "item": "minecraft:torch",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "13B25EFC6524F03B",
+      "title": "필요할 때 주문하는 공장",
+      "icon": "ae2:pattern_provider",
+      "x": 9.0,
+      "y": 3.0,
+      "description": [
+        "패턴 공급기·분자 조립기·패턴 인코딩 터미널·1k 제작 저장소·빈 패턴을 각각 1개 준비하세요.",
+        "터미널에서 간단한 제작법을 패턴에 기록하고 패턴 공급기에 넣으세요. 공급기에 분자 조립기를 붙이고 제작 저장소를 같은 네트워크에 연결합니다.",
+        "먼저 판자나 막대처럼 단순한 제작법을 주문해 보세요. 이후 처리 패턴으로 외부 기계까지 확장할 수 있습니다.",
+        "이 목표는 시작 장비의 보유를 확인합니다. 실제 제작 성공은 주문 결과를 직접 확인해 주세요."
+      ],
+      "dependencies": [
+        "68123B037A1673CB"
+      ],
+      "tasks": [
+        {
+          "id": "5A0E8D29EF52AA99",
+          "type": "item",
+          "item": "ae2:pattern_provider",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "57388EBD4386F850",
+          "type": "item",
+          "item": "ae2:molecular_assembler",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "0791CF624C4BDBAB",
+          "type": "item",
+          "item": "ae2:pattern_encoding_terminal",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "32C8F8F9FF48BFC6",
+          "type": "item",
+          "item": "ae2:1k_crafting_storage",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        },
+        {
+          "id": "5B3B98C9DC819C14",
+          "type": "item",
+          "item": "ae2:blank_pattern",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "5843D9FD96FC283E",
+          "type": "xp",
+          "xp": 75,
+          "team_reward": false
+        },
+        {
+          "id": "5BB4A479B95C92BC",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "476BFF360EC155A3",
+  "filename": "07_exploration",
+  "order_index": 6,
+  "title": "07 · 탐험과 총기",
+  "subtitle": [
+    "거점을 연결하고 여행을 준비하기"
+  ],
+  "icon": "waystones:waystone",
+  "default_quest_shape": "square",
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "3A38CE87D2213EDC",
+      "title": "돌아올 길을 만들다",
+      "icon": "waystones:waystone",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "전송석 1개를 준비하세요. 발견한 전송석을 활성화하거나 직접 만든 전송석을 거점에 설치해 보세요.",
+        "이동 조건과 비용을 확인하고 지도를 함께 활용하세요. 퀘스트는 인벤토리의 전송석을 확인하므로, 발견한 전송석을 활성화하는 것만으로 완료되지는 않습니다."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "30096F95EC19D666",
+          "type": "item",
+          "item": "waystones:waystone",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "4095565B86C4F16B",
+          "type": "xp",
+          "xp": 35,
+          "team_reward": false
+        },
+        {
+          "id": "70C9665D7206FDAE",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "3D1A093556B526DA",
+      "title": "총기 제작의 작업대",
+      "icon": "tacz:gun_smith_table",
+      "x": 3.0,
+      "y": 0.0,
+      "description": [
+        "TaCZ 총기 제작대를 만들고 제작 가능한 총기와 탄약 목록을 확인하세요.",
+        "기본 총기팩이 제공하는 제작법은 제작대 화면에서 확인할 수 있습니다. 첫 총은 재료 부담이 작은 것부터 선택하세요."
+      ],
+      "dependencies": [
+        "62D9B6966A5B3955"
+      ],
+      "tasks": [
+        {
+          "id": "4A397A8277AE9690",
+          "type": "item",
+          "item": "tacz:gun_smith_table",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "53A9F29B72A9307D",
+          "type": "xp",
+          "xp": 25,
+          "team_reward": false
+        },
+        {
+          "id": "1FB2CF8C39D39BCB",
+          "type": "item",
+          "item": "minecraft:iron_nugget",
+          "count": 4,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "3A59F363E5373597",
+      "title": "첫 총기를 마련하다",
+      "icon": "tacz:modern_kinetic_gun",
+      "x": 6.0,
+      "y": 0.0,
+      "description": [
+        "총기 제작대에서 원하는 기본 총기 1정을 만들어 주세요. 이 목표는 TaCZ의 총기 아이템 보유를 확인하며 특정 기종을 강요하지 않습니다.",
+        "장전·조준·사격 키를 설정 → 조작에서 확인하세요. 총기를 만들었어도 맞는 탄약이 없으면 사용할 수 없습니다."
+      ],
+      "dependencies": [
+        "3D1A093556B526DA"
+      ],
+      "tasks": [
+        {
+          "id": "72FA0B26C34EECA7",
+          "type": "item",
+          "item": "tacz:modern_kinetic_gun",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "71A01113331F189C",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "1E4F521018720B78",
+          "type": "item",
+          "item": "minecraft:copper_ingot",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "6620ED2A100182DB",
+      "title": "총기에 맞는 탄약",
+      "icon": "tacz:ammo",
+      "x": 9.0,
+      "y": 0.0,
+      "description": [
+        "보유한 총기에 맞는 탄약을 제작하세요. 총기 화면의 탄종과 제작대의 탄약 정보를 비교하면 됩니다.",
+        "목표 판정은 TaCZ 탄약 총 50발을 확인합니다. 판정이 완료되어도 서로 다른 탄종을 모든 총에 사용할 수 있는 것은 아닙니다.",
+        "귀환할 식량과 예비 탄약을 챙기고 거점 주변부터 익혀 보세요."
+      ],
+      "dependencies": [
+        "3A59F363E5373597"
+      ],
+      "tasks": [
+        {
+          "id": "1EF8E3243F562205",
+          "type": "item",
+          "item": "tacz:ammo",
+          "count": 50,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "0FB6209BB76A112B",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "3CC310D406036F2C",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    },
+    {
+      "id": "014111ED91BAD052",
+      "title": "여행 가방을 넓히다",
+      "icon": "sophisticatedbackpacks:iron_backpack",
+      "x": 0.0,
+      "y": 3.0,
+      "description": [
+        "배낭을 철 등급으로 확장해 주세요. 현재 배낭에서 이어지는 정확한 업그레이드 순서를 JEI로 확인하세요.",
+        "필요에 따라 줍기·먹이 공급·제작 등의 업그레이드를 추가할 수 있습니다. 가지고 있는 물건과 배낭 내부 공간을 확인하며 확장하세요."
+      ],
+      "dependencies": [
+        "23C519EC3A480F37"
+      ],
+      "tasks": [
+        {
+          "id": "22F7049A805B96B2",
+          "type": "item",
+          "item": "sophisticatedbackpacks:iron_backpack",
+          "count": 1,
+          "consume_items": false,
+          "match_nbt": false
+        }
+      ],
+      "rewards": [
+        {
+          "id": "159EE3B7C24A8D51",
+          "type": "xp",
+          "xp": 40,
+          "team_reward": false
+        },
+        {
+          "id": "26FFDCF0AC8FB671",
+          "type": "item",
+          "item": "minecraft:bread",
+          "count": 2,
+          "team_reward": false
+        }
+      ]
+    }
+  ]
+}

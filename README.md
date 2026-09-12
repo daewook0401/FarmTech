@@ -137,11 +137,29 @@ server.properties  whitelist.json  ops.json  banned-players.json  banned-ips.jso
 `mods/`, `libraries/`, 이전 실행 스크립트는 이미지가 관리하므로 옮기지 않습니다.
 기존 설정은 첫 실행에도 보존됩니다. `.env`의 EULA 설정은 별도로 확인합니다.
 
+## 한국어 퀘스트
+
+FTB Quests 2001.4.22와 FTB XMod Compat 2.1.3을 서버와 클라이언트에 포함합니다.
+정착·농업·전력·자동 농장·강화 재료·AE2·탐험의 7개 장에 한국어 퀘스트 50개가 있습니다.
+인벤토리의 퀘스트 책 버튼으로 열 수 있으며, 키 지정은 설정 → 조작 → FTB 퀘스트에서 확인합니다.
+
+- 아이템 목표는 보유 여부만 확인하며 소비하지 않습니다. 기계 가동까지 자동 검사하는 목표는 아닙니다.
+- 같은 FTB 팀은 진행 상황을 공유합니다. 보상은 각 플레이어가 직접 수령합니다.
+- 보상은 소량의 음식·재료와 경험치이며, 핵심 기계나 고급 씨앗을 지급하지 않습니다.
+- 퀘스트는 제작법을 잠그지 않습니다. 선행 퀘스트를 마치기 전에도 다른 목표의 아이템을 준비할 수 있습니다.
+- 내용은 `pack/defaults/config/ftbquests/quests/`, 진행 기록은 `data/world/ftbquests/`에 저장합니다.
+- `tools/build_quests.py`에서 내용을 수정한 뒤 실행해 배포 파일을 생성하고 `python3 tests/validate_quests.py`로 검사합니다.
+- 기존 진행을 유지하려면 생성기의 퀘스트 키를 바꾸지 마세요. 제목과 설명만 바꾸면 같은 ID를 유지합니다.
+
+친구의 클라이언트에도 위 두 모드를 같은 버전으로 설치하세요. 서버에 접속하면 퀘스트 내용은 동기화됩니다.
+플레이 메뉴 한국어 보완은 `client-overrides/resourcepacks/FarmTech-Quests-Korean` 폴더를 클라이언트의 `resourcepacks/`에 복사하고 리소스팩 메뉴에서 활성화합니다.
+싱글플레이에서도 같은 퀘스트를 쓰려면 `pack/defaults/config/ftbquests/quests` 폴더를 클라이언트의 `config/ftbquests/quests`로 복사합니다.
+
 ## 포함 모드와 진단
 
 Farmer's Delight, Industrial Foregoing, Mekanism, Mekanism Generators, AE2, Mystical Agriculture, Powah, Farming for Blockheads, Pipez, TaCZ, Sophisticated Backpacks, Curios, Jade, FTB Chunks, FTB Teams, Waystones와 필수 라이브러리를 포함합니다.
 최적화는 FerriteCore·ModernFix, 서버 진단은 spark, 자동 백업은 Simple Backups를 사용합니다.
-서버 모드 JAR는 총 30개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
+서버 모드 JAR는 총 32개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
 JEI는 클라이언트와 서버에 같은 버전을 넣어 제작법을 동기화합니다.
 Embeddium·Oculus·셰이더·한국어 리소스팩은 클라이언트에서 사용합니다.
 TaCZ 기본 총기팩은 모드가 첫 실행 때 `data/tacz/`에 생성합니다.
