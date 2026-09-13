@@ -256,6 +256,46 @@
       "project_url": "https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat",
       "curseforge_project_id": 889915,
       "curseforge_file_id": 6402486
+    },
+    {
+      "file": "fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+      "sha256": "6b4853214c5cc156b187b86162df2db028c0ddcf90380fa1897068cde2622de1",
+      "download_url": "https://edge.forgecdn.net/files/6231/30/fallingtrees-forge-mc1.20-0.13.2-SNAPSHOT.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/pandas-falling-trees",
+      "curseforge_project_id": 880630,
+      "curseforge_file_id": 6231030
+    },
+    {
+      "file": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+      "sha256": "ad71c5ad93d305fd9c1f1dcecea2b7431886452baca5b324e80ba3c1241a3e3b",
+      "download_url": "https://edge.forgecdn.net/files/8155/852/jamlib-forge-1.3.6%2b1.20.1-patch.1.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/jamlib",
+      "curseforge_project_id": 623764,
+      "curseforge_file_id": 8155852
+    },
+    {
+      "file": "pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+      "sha256": "1595c586e9c3e7e9a455d23b1686cc82f8d9e11578efd86a10a7031995301390",
+      "download_url": "https://edge.forgecdn.net/files/6245/108/pandalib-forge-mc1.20-0.5.2-SNAPSHOT.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/pandalib",
+      "curseforge_project_id": 975460,
+      "curseforge_file_id": 6245108
+    },
+    {
+      "file": "rightclickharvest-forge-4.6.1+1.20.1.jar",
+      "sha256": "e7ae955174869497a7aa855cf859aba6f37abbb2a93b53e9e05935cf7709cc0a",
+      "download_url": "https://edge.forgecdn.net/files/7508/764/rightclickharvest-forge-4.6.1%2b1.20.1.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/rightclickharvest",
+      "curseforge_project_id": 452834,
+      "curseforge_file_id": 7508764
+    },
+    {
+      "file": "TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+      "sha256": "219fbe5bf8d862dc7b524ca5a0151f66bba4d53a01010858e136a9e8c4d55d4f",
+      "download_url": "https://edge.forgecdn.net/files/5565/422/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+      "project_url": "https://www.curseforge.com/minecraft/mc-mods/treechop",
+      "curseforge_project_id": 421377,
+      "curseforge_file_id": 5565422
     }
   ],
   "server_only": [

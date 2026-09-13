@@ -155,11 +155,24 @@ FTB Quests 2001.4.22와 FTB XMod Compat 2.1.3을 서버와 클라이언트에 �
 플레이 메뉴 한국어 보완은 `client-overrides/resourcepacks/FarmTech-Quests-Korean` 폴더를 클라이언트의 `resourcepacks/`에 복사하고 리소스팩 메뉴에서 활성화합니다.
 싱글플레이에서도 같은 퀘스트를 쓰려면 `pack/defaults/config/ftbquests/quests` 폴더를 클라이언트의 `config/ftbquests/quests`로 복사합니다.
 
+## 나무 벌목과 우클릭 수확
+
+- HT’s TreeChop 0.19.0 fixed: 나무 밑동을 도끼로 계속 캐면 줄기가 단계적으로 깎입니다.
+- Panda’s Falling Trees 0.13.2: TreeChop과 연동해 벌목한 나무가 옆으로 쓰러지는 애니메이션을 표시합니다. 필수 PandaLib 0.5.2도 포함합니다.
+- RightClickHarvest 4.6.1+1.20.1: 다 자란 작물을 우클릭해 수확하고 다시 심습니다. 필수 JamLib 1.3.6+1.20.1-patch.1도 포함합니다.
+
+우클릭 수확은 괭이 없이 가능하며 한 번에 한 포기만 처리합니다. 추가 허기 소모와 수확 경험치는 꺼져 있습니다.
+설정은 서버의 `data/config/rightclickharvest.json5`에서 바꿀 수 있습니다.
+싱글플레이에도 같은 설정을 쓰려면 `pack/defaults/config/rightclickharvest.json5`를 클라이언트 `config/`에 복사합니다.
+친구 클라이언트에도 위 모드 5개를 같은 버전으로 설치하세요.
+TreeChop 설정은 기본 N 키로 열 수 있으며, 웅크리면 일반 블록 파괴로 전환됩니다.
+Panda’s Falling Trees와 PandaLib는 Forge 1.20.1용 베타 배포본을 고정해서 사용합니다.
+
 ## 포함 모드와 진단
 
 Farmer's Delight, Industrial Foregoing, Mekanism, Mekanism Generators, AE2, Mystical Agriculture, Powah, Farming for Blockheads, Pipez, TaCZ, Sophisticated Backpacks, Curios, Jade, FTB Chunks, FTB Teams, Waystones와 필수 라이브러리를 포함합니다.
 최적화는 FerriteCore·ModernFix, 서버 진단은 spark, 자동 백업은 Simple Backups를 사용합니다.
-서버 모드 JAR는 총 32개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
+서버 모드 JAR는 총 37개이며 정확한 버전·출처·해시는 [`pack/manifest.json`](pack/manifest.json)에 있습니다.
 JEI는 클라이언트와 서버에 같은 버전을 넣어 제작법을 동기화합니다.
 Embeddium·Oculus·셰이더·한국어 리소스팩은 클라이언트에서 사용합니다.
 TaCZ 기본 총기팩은 모드가 첫 실행 때 `data/tacz/`에 생성합니다.
